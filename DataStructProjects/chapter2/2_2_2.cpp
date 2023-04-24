@@ -31,6 +31,7 @@ void display(lnode *L){
     lnode *p=L->next;
     for(int i=1;i<=n;i++){
         cout<<p->data<<" ";
+        p=p->next;
     }
     cout<<endl;
 }
